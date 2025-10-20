@@ -1,0 +1,15 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-w",
+      "-o",
+      "01_hello",
+      "01_hello.c"
+    ],
+    "directory": "/home/user/lazyfoo",
+    "file": "/home/user/lazyfoo/01_hello.c",
+    "output": "/home/user/lazyfoo/01_hello"
+  }
+]
