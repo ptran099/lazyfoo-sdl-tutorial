@@ -1,6 +1,4 @@
 #include <SDL2/SDL.h>
-#include <SDL2/SDL_events.h>
-#include <SDL2/SDL_video.h>
 #include <stdio.h>
 
 const int SCREEN_WIDTH = 640;
@@ -40,7 +38,7 @@ int main(int argc, char *argv[]) {
 			int quit = 0;
 			while(!quit) {
 				while(SDL_PollEvent(&e)) {
-					if(e.type == SQL_QUIT) {
+					if(e.type == SDL_QUIT) {
 						quit = 0;
 					}
 				}
